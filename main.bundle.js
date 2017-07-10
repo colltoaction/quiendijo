@@ -375,7 +375,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/intro/intro.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h2>Simple, quién dijo qué?</h2>\n<p>\n  <a routerLink=\"/play\">Empezar</a>\n</p>\n<img width=\"300\" src=\"assets/cristina/1.jpg\">"
+module.exports = "<h2>Simple, quién dijo qué?</h2>\n<p>\n  <a routerLink=\"/play\">Empezar</a>\n</p>\n<img width=\"300\" src=\"assets/cris/1.jpg\">\n<img width=\"300\" src=\"assets/gato/1.jpg\">"
 
 /***/ }),
 
