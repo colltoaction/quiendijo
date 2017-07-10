@@ -1,0 +1,11 @@
+<ng-container *ngIf="currentQuote | async as quote">
+  <ng-container *ngIf="currentImage | async as image">
+    <p>{{quote.quote}}</p>
+    <button (click)="pick(quote, 'left')">
+      <img width="300" [attr.src]="image.left">
+    </button>
+    <button (click)="pick(quote, 'right')">
+      <img width="300" [attr.src]="image.right">
+    </button>
+  </ng-container>
+</ng-container>

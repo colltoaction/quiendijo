@@ -1,0 +1,11 @@
+<p *ngIf="correct | async as c; else noCorrect">
+  {{c}} respuesta{{c !== 1 ? 's' : ''}} correcta{{c !== 1 ? 's' : ''}}!
+</p>
+<ng-template #noCorrect>
+  <p>
+    No te desanimes, ambos son unos chamulleros.
+  </p>
+</ng-template>
+<p>
+  <a routerLink="/play">Volver a empezar</a>
+</p>
